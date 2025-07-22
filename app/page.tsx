@@ -7,10 +7,10 @@ import Link from "next/link"
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-x-hidden w-full max-w-screen-2xl mx-auto">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-        <div className="container flex h-16 items-center justify-between px-4 md:px-6">
+        <div className="container flex h-16 items-center justify-between px-4 md:px-6 mx-auto">
           <div className="flex items-center space-x-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600">
               <Zap className="h-5 w-5 text-white" />
@@ -44,7 +44,7 @@ export default function LandingPage() {
 
       {/* Hero Section */}
       <section className="py-20 md:py-32 bg-gradient-to-br from-blue-50 to-indigo-100">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 mx-auto">
           <div className="flex justify-center">
             <div className="space-y-8 text-center max-w-4xl">
               <div className="space-y-4">
@@ -88,7 +88,7 @@ export default function LandingPage() {
 
       {/* Features Section */}
       <section id="features" className="py-20 md:py-32">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 mx-auto">
           <div className="text-center space-y-4 mb-16">
             <Badge variant="outline" className="w-fit mx-auto">
               Features
@@ -156,7 +156,7 @@ export default function LandingPage() {
 
       {/* Testimonials Section */}
       <section id="testimonials" className="py-20 md:py-32 bg-gray-50">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 mx-auto">
           <div className="text-center space-y-4 mb-16">
             <Badge variant="outline" className="w-fit mx-auto">
               Testimonials
@@ -254,7 +254,7 @@ export default function LandingPage() {
 
       {/* Pricing Section */}
       <section id="pricing" className="py-20 md:py-32">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 mx-auto">
           <div className="text-center space-y-4 mb-16">
             <Badge variant="outline" className="w-fit mx-auto">
               Pricing
@@ -379,7 +379,7 @@ export default function LandingPage() {
 
       {/* Final CTA Section */}
       <section className="py-20 md:py-32 bg-blue-600 text-white">
-        <div className="container px-4 md:px-6 text-center">
+        <div className="container px-4 md:px-6 mx-auto text-center">
           <div className="space-y-8 max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
               Ready to streamline your workflow?
@@ -408,7 +408,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer id="contact" className="bg-gray-900 text-white py-16">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 mx-auto">
           <div className="grid gap-16 lg:grid-cols-2">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
