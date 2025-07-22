@@ -43,7 +43,7 @@ export default function LandingPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-br from-blue-50 to-indigo-100">
+      <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex justify-center">
             <div className="space-y-8 text-center max-w-4xl">
