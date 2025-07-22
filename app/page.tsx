@@ -10,7 +10,7 @@ export default function LandingPage() {
     <div className="min-h-screen bg-white overflow-x-hidden w-full">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-        <div className="container mx-auto flex h-20 items-center justify-between px-2 md:px-6">
+        <div className="container mx-0 flex h-20 items-center justify-between px-2 md:px-6">
           <div className="flex items-center space-x-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600">
               <Zap className="h-5 w-5 text-white" />
@@ -408,7 +408,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer id="contact" className="bg-gray-900 text-white py-16">
-        <div className="container mx-auto px-4 md:px-6">
+        <div className="container mx-0 px-4 md:px-6">
           <div className="grid gap-16 lg:grid-cols-2">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
