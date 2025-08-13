@@ -1,4 +1,5 @@
 # Modern landing page design
+A sleek, responsive, and conversion-focused landing page crafted using v0.dev’s AI-powered interface and Vercel’s blazing-fast hosting. Designed with a modern aesthetic, optimized for performance, and automatically synced with your v0.dev deployments for a seamless development workflow.
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
